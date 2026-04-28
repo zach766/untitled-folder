@@ -87,3 +87,26 @@ nav a:hover {
   height: 130px;
   object-fit: cover;
 }
+
+.info {
+  flex: 1;
+  text-align: left;
+}
+
+.rating {
+  color: goldenrod;
+}
+
+input, textarea {
+  display: block;
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  border: 1px solid #111;
+  background: none;
+  cursor: pointer;
+}
