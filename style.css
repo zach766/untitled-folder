@@ -208,3 +208,38 @@ button {
 .about-text {
   flex: 1;
 }
+
+.about-boxes {
+  flex: 1;
+  display: grid;
+  gap: 15px;
+}
+
+.box {
+  background: white;
+  padding: 20px;
+  border-left: 3px solid goldenrod;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* FEATURES GRID */
+.features {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 40px auto;
+}
+
+.card {
+  padding: 30px;
+  background: white;
+  border: 1px solid #eee;
+  transition: 0.3s;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
