@@ -16,3 +16,35 @@ header {
   font-weight: bold;
   letter-spacing: 2px;
 }
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #f111;
+}
+
+nav a:hover {
+  color: goldenrod;
+}
+
+.hero {
+  height: 90vh;
+   background: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0") center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-text {
+  background: rgba(255,255,255,0.85);
+  padding: 40px;
+  text-align: center;
+}
+
+.intro {
+  max-width: 800px;
+  margin: auto;
+  padding: 60px;
+  text-align: center;
+  line-height: 1.8;
+}
