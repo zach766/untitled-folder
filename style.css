@@ -4,3 +4,10 @@ body {
   background: white;
   color: #f111;
 }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 50px;
+  border-bottom: 1px solid #feee;
+}
