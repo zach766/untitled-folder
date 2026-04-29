@@ -287,3 +287,28 @@ button {
 .contact-form {
   width: 100%;
 }
+
+/* INPUTS */
+.form-group {
+  position: relative;
+  margin: 20px 0;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-family: Georgia, serif;
+}
+
+/* LABEL */
+.form-group label {
+  position: absolute;
+  left: 14px;
+  top: 14px;
+  color: #888;
+  transition: 0.3s;
+  pointer-events: none;
+}
