@@ -344,3 +344,22 @@ button:hover {
   .contact-layout {
     flex-direction: column;
   }
+
+  .contact-left {
+    border-right: none;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 30px;
+  }
+}
+
+.socials a {
+  text-decoration: none;
+  color: #111;
+  display: inline-block;
+  margin: 5px 0;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: goldenrod;
+}
